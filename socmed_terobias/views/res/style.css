@@ -1,0 +1,245 @@
+
+body{
+    background: #1c1e21;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Calibri';
+    min-height: 100vh;
+}
+.registration_form{
+    background-color: #4a4b4c;
+    width: 30%;
+    margin: 1em auto;
+    padding: 1.5em; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px black;
+    color: white;
+}
+input{
+    width: 96%;
+    margin: .5em auto;
+    margin-top: .1em;
+    padding: .5em .2em;
+    border: .1em solid grey;
+    border-radius: 5px;
+    outline-color: #4a4b4c;
+    background: #bdbdbd;
+}
+input::placeholder{
+        color: #1a1b1c;
+}
+label{
+    color: white;
+    font-size: .8em;
+}
+input[type='submit']{
+    width: 98%;
+    background-color: #7a7b7c;
+    color: white;
+    border: none;
+    padding: .7em 0em;
+}
+input[type='submit']:hover{
+    background-color: #b0b0b0;
+}
+.navbar{
+    background: #4a4b4c;
+    margin: 0px;
+    box-shadow: 2px 2px 5px 0px black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    max-height: 52px;
+}
+.right-list{
+    text-align: right;
+    width: 25%;
+}
+.right-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+    color: #c9c9c9;
+}
+.right-list li:hover{
+    background-color: #969696;
+    
+}
+a{
+    text-decoration: none;
+    color: #c9c9c9;
+    font-weight: bold;
+}
+.title{
+    text-align: center;
+    color: #c9c9c9;
+    padding: 1em;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: .5px solid;
+}
+.alert{
+    color: #ff5555;
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+}
+.left-list{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px;
+    width: 87%;
+}
+.left-list li{
+   list-style-type: none;
+   display: inline-block;
+   color: #c9c9c9;
+}
+.left-list li:hover{
+    background-color: #969696;
+}
+.logo{
+    background-image: url('social.png');
+    background-size: 30px 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    margin:0px;
+    margin-right: 10px;
+}
+.container{
+    background-color: #4a4b4c;
+    width: 80%;
+    min-height:40vh;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5vh;
+}
+.banner{
+    background-image: url('wall.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    color: #dceff5;
+}
+.profile_pic{
+    background-size: cover;
+    position: relative;
+    z-index: 200;
+    width: 20vh;
+    height: 20vh;
+    background-image: url('sha.jpg');
+    background-size: cover;
+    border-radius: 100px;
+    left: 10vh;
+    top: 5vh;
+    box-shadow: 1px 1px 5px 0px #969696;
+}
+.container h2{
+    margin: 0px 0px;
+    position: relative;
+    top: 15vh;
+    left: 32vh;
+    font-size: 2em;
+}
+.post-container{
+    width: 75%;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 5vh;
+    align-items: center;
+    justify-content: center;
+    color: #1c1e21;
+    border-radius: 20px;
+        
+}
+#post-btn{
+    width: 99.5%;
+}
+#post_area{
+    width: 100%;
+    resize: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    height: 5em;
+}
+.post{
+    padding: 1em;
+    margin: 1em;
+    border-radius: 15px;
+    width: 94%;
+    background-color: #4a4b4c;
+    color: white;
+}
+.post-pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('sha.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 2vh;
+}
+.name{
+    font-weight: bold;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.post-text{
+    padding: 5px 5px;
+}
+.user-posts{
+    background: rgb(0,0,0,0);
+    width: 80%;
+    min-height:40vh;
+    margin: auto;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5vh;
+}
+.action-btn{
+    border-top: 1px solid;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btns{
+    margin: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    min-width: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+.btns:hover{
+    background-color: #7d7d7d;
+}
+.btn-icon{
+    margin-right: 5px;
+}
+.post-text{
+    font-size: larger;
+    margin: 2vh 0;
+}
+.pfp{
+    border-radius: 50%;
+}
