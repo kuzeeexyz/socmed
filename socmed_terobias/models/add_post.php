@@ -11,4 +11,4 @@ $sql = "INSERT INTO post VALUES(0,$aid,'$post_text',NOW(),NOW());";
 $result=$con->query($sql);
 
 $con->close();
-header("location:../login.php");
+header("location:../profile.php");
